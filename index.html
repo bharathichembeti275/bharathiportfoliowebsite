@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharathi Chembeti | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <h1 class="logo">Bharathi Chembeti</h1>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="hero" class="section hero">
+  <div class="hero-content">
+    <h2>Hello, I'm <span class="highlight">Bharathi Chembeti</span></h2>
+    <h3><span id="typing"></span></h3>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="https://drive.google.com/file/d/1bmexmbe-rzwXiCe19Mzma9l0BTD0g1Gr/view?usp=drive_link" target="_blank" class="btn outline">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section" data-aos="fade-up">
+  <img src="public/bharathi.jpeg" alt="Profile Photo" class="profile">
+  <h2>Career Objective</h2>
+  <p>
+    Motivated Computer Science graduate seeking an entry-level Python Developer position to apply my programming skills, problem-solving abilities, and knowledge of software development in building efficient and scalable applications.
+  </p>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section alt" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">HTML5</div>
+    <div class="card">CSS3</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Python</div>
+    <div class="card">MySQL</div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section" data-aos="fade-up">
+  <h2>Experience</h2>
+
+  <div class="timeline-item">
+    <h3>Python Developer Intern At OutriX</h3>
+    <span>1st August 2025 – 1st September 2025</span>
+    <p>Gained strong understanding of Python fundamentals including data types, loops, functions, and object-oriented programming.</p>
+    <p>Experienced team collaboration and real-world project development practices.</p>
+  </div>
+
+  <div class="timeline-item">
+    <h3>Python Full Stack at Excelr.</h3>
+    <span>May 2025 – July 2025</span>
+    <p>Developed responsive web pages using HTML, CSS, and JavaScript.</p>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section alt" data-aos="fade-up">
+  <h2>Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Internship Matcher Pro</h3>
+      <p>Developed Internship Matcher Pro, a smart internship recommendation web application that matches students with relevant internship opportunities based on their skills, interests, and qualifications. The system analyzes user inputs and suggests suitable internships to improve career alignment and job readiness..</p>
+    </div>
+
+    <div class="card">
+      <h3>Ai Resume screening system</h3>
+      <p>Developed an AI Resume Screening System that automatically analyzes and filters resumes based on job requirements and relevant skills. The system uses intelligent matching techniques to rank candidates, helping recruiters streamline the hiring process and reduce manual effort..</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section" data-aos="fade-up">
+  <h2>Contact Me</h2>
+
+  <form id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="form-message"></p>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2025 Pattubala Bharani</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
